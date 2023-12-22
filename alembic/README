@@ -1,1 +1,10 @@
 Generic single-database configuration with an async dbapi.
+Initial is already created
+
+to create new migration after you change the db structure use command: alembic revision --autogenerate -m "Your message"
+
+to upgrade your db to latest version use command: alembic upgrade head
+
+to downgrade db to initial use command: alembic downgrade base
+
+you can also use the revision name in command upgrade or downgrade to specify which revision you want your db to be

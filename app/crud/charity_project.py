@@ -1,5 +1,6 @@
-from .base import CRUDBase
 from app.models.charity_project import CharityProject
+
+from .base import CRUDBase
 
 
 class CharityProjectCRUD(CRUDBase):

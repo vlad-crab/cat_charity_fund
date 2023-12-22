@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 
-from .endpoints import user_router, charity_project_router, donation_router
+from .endpoints import charity_project_router, donation_router, user_router
 
 main_router = APIRouter()
 
